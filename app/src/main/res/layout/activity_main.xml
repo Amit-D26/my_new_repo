@@ -25,4 +25,13 @@
         android:layout_marginStart="11dp"
         android:layout_marginTop="73dp"
         android:id="@+id/textView2" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/textView" />
 </RelativeLayout>
